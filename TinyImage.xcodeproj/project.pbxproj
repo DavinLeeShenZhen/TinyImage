@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801F47281B622BB700611FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F47271B622BB700611FA7 /* AppDelegate.m */; };
+		801F472A1B622BB700611FA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F47291B622BB700611FA7 /* main.m */; };
+		801F472C1B622BB700611FA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801F472B1B622BB700611FA7 /* Images.xcassets */; };
+		801F472F1B622BB700611FA7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 801F472D1B622BB700611FA7 /* MainMenu.xib */; };
+		801F473B1B622BB700611FA7 /* TinyImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F473A1B622BB700611FA7 /* TinyImageTests.m */; };
+		801F47471B6239AF00611FA7 /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 801F47461B6239AF00611FA7 /* MF_Base64Additions.m */; };
+		8020326C1B6710AC00FC510C /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 802032541B6710AC00FC510C /* NSObject+SBJson.m */; };
+		8020326D1B6710AC00FC510C /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 802032571B6710AC00FC510C /* SBJsonParser.m */; };
+		8020326E1B6710AC00FC510C /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 802032591B6710AC00FC510C /* SBJsonStreamParser.m */; };
+		8020326F1B6710AC00FC510C /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020325B1B6710AC00FC510C /* SBJsonStreamParserAccumulator.m */; };
+		802032701B6710AC00FC510C /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020325D1B6710AC00FC510C /* SBJsonStreamParserAdapter.m */; };
+		802032711B6710AC00FC510C /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020325F1B6710AC00FC510C /* SBJsonStreamParserState.m */; };
+		802032721B6710AC00FC510C /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 802032611B6710AC00FC510C /* SBJsonStreamWriter.m */; };
+		802032731B6710AC00FC510C /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 802032631B6710AC00FC510C /* SBJsonStreamWriterAccumulator.m */; };
+		802032741B6710AC00FC510C /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 802032651B6710AC00FC510C /* SBJsonStreamWriterState.m */; };
+		802032751B6710AC00FC510C /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 802032671B6710AC00FC510C /* SBJsonTokeniser.m */; };
+		802032761B6710AC00FC510C /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 802032691B6710AC00FC510C /* SBJsonUTF8Stream.m */; };
+		802032771B6710AC00FC510C /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020326B1B6710AC00FC510C /* SBJsonWriter.m */; };
+		8020327A1B6724DE00FC510C /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 802032791B6724DE00FC510C /* Window.m */; };
+		8020327D1B6750A700FC510C /* TinyImageCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020327C1B6750A700FC510C /* TinyImageCore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		801F47351B622BB700611FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801F47191B622BB700611FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801F47201B622BB700611FA7;
+			remoteInfo = TinyImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		801F47211B622BB700611FA7 /* TinyImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		801F47251B622BB700611FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801F47261B622BB700611FA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		801F47271B622BB700611FA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		801F47291B622BB700611FA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		801F472B1B622BB700611FA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		801F472E1B622BB700611FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		801F47341B622BB700611FA7 /* TinyImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		801F47391B622BB700611FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		801F473A1B622BB700611FA7 /* TinyImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyImageTests.m; sourceTree = "<group>"; };
+		801F47451B6239AF00611FA7 /* MF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
+		801F47461B6239AF00611FA7 /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
+		802032531B6710AC00FC510C /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		802032541B6710AC00FC510C /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		802032551B6710AC00FC510C /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		802032561B6710AC00FC510C /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		802032571B6710AC00FC510C /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		802032581B6710AC00FC510C /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		802032591B6710AC00FC510C /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		8020325A1B6710AC00FC510C /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		8020325B1B6710AC00FC510C /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		8020325C1B6710AC00FC510C /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		8020325D1B6710AC00FC510C /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		8020325E1B6710AC00FC510C /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		8020325F1B6710AC00FC510C /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		802032601B6710AC00FC510C /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		802032611B6710AC00FC510C /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		802032621B6710AC00FC510C /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		802032631B6710AC00FC510C /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		802032641B6710AC00FC510C /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		802032651B6710AC00FC510C /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		802032661B6710AC00FC510C /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		802032671B6710AC00FC510C /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		802032681B6710AC00FC510C /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		802032691B6710AC00FC510C /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		8020326A1B6710AC00FC510C /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		8020326B1B6710AC00FC510C /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		802032781B6724DE00FC510C /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		802032791B6724DE00FC510C /* Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Window.m; sourceTree = "<group>"; };
+		8020327B1B6750A700FC510C /* TinyImageCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyImageCore.h; sourceTree = "<group>"; };
+		8020327C1B6750A700FC510C /* TinyImageCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyImageCore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801F471E1B622BB700611FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801F47311B622BB700611FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801F47181B622BB700611FA7 = {
+			isa = PBXGroup;
+			children = (
+				801F47231B622BB700611FA7 /* TinyImage */,
+				801F47371B622BB700611FA7 /* TinyImageTests */,
+				801F47221B622BB700611FA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		801F47221B622BB700611FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801F47211B622BB700611FA7 /* TinyImage.app */,
+				801F47341B622BB700611FA7 /* TinyImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801F47231B622BB700611FA7 /* TinyImage */ = {
+			isa = PBXGroup;
+			children = (
+				802032521B6710AC00FC510C /* SBJson */,
+				801F47441B6239AF00611FA7 /* Base64 */,
+				801F47261B622BB700611FA7 /* AppDelegate.h */,
+				801F47271B622BB700611FA7 /* AppDelegate.m */,
+				801F472B1B622BB700611FA7 /* Images.xcassets */,
+				801F472D1B622BB700611FA7 /* MainMenu.xib */,
+				802032781B6724DE00FC510C /* Window.h */,
+				802032791B6724DE00FC510C /* Window.m */,
+				8020327B1B6750A700FC510C /* TinyImageCore.h */,
+				8020327C1B6750A700FC510C /* TinyImageCore.m */,
+				801F47241B622BB700611FA7 /* Supporting Files */,
+			);
+			path = TinyImage;
+			sourceTree = "<group>";
+		};
+		801F47241B622BB700611FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				801F47251B622BB700611FA7 /* Info.plist */,
+				801F47291B622BB700611FA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		801F47371B622BB700611FA7 /* TinyImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				801F473A1B622BB700611FA7 /* TinyImageTests.m */,
+				801F47381B622BB700611FA7 /* Supporting Files */,
+			);
+			path = TinyImageTests;
+			sourceTree = "<group>";
+		};
+		801F47381B622BB700611FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				801F47391B622BB700611FA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		801F47441B6239AF00611FA7 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				801F47451B6239AF00611FA7 /* MF_Base64Additions.h */,
+				801F47461B6239AF00611FA7 /* MF_Base64Additions.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		802032521B6710AC00FC510C /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				802032531B6710AC00FC510C /* NSObject+SBJson.h */,
+				802032541B6710AC00FC510C /* NSObject+SBJson.m */,
+				802032551B6710AC00FC510C /* SBJson.h */,
+				802032561B6710AC00FC510C /* SBJsonParser.h */,
+				802032571B6710AC00FC510C /* SBJsonParser.m */,
+				802032581B6710AC00FC510C /* SBJsonStreamParser.h */,
+				802032591B6710AC00FC510C /* SBJsonStreamParser.m */,
+				8020325A1B6710AC00FC510C /* SBJsonStreamParserAccumulator.h */,
+				8020325B1B6710AC00FC510C /* SBJsonStreamParserAccumulator.m */,
+				8020325C1B6710AC00FC510C /* SBJsonStreamParserAdapter.h */,
+				8020325D1B6710AC00FC510C /* SBJsonStreamParserAdapter.m */,
+				8020325E1B6710AC00FC510C /* SBJsonStreamParserState.h */,
+				8020325F1B6710AC00FC510C /* SBJsonStreamParserState.m */,
+				802032601B6710AC00FC510C /* SBJsonStreamWriter.h */,
+				802032611B6710AC00FC510C /* SBJsonStreamWriter.m */,
+				802032621B6710AC00FC510C /* SBJsonStreamWriterAccumulator.h */,
+				802032631B6710AC00FC510C /* SBJsonStreamWriterAccumulator.m */,
+				802032641B6710AC00FC510C /* SBJsonStreamWriterState.h */,
+				802032651B6710AC00FC510C /* SBJsonStreamWriterState.m */,
+				802032661B6710AC00FC510C /* SBJsonTokeniser.h */,
+				802032671B6710AC00FC510C /* SBJsonTokeniser.m */,
+				802032681B6710AC00FC510C /* SBJsonUTF8Stream.h */,
+				802032691B6710AC00FC510C /* SBJsonUTF8Stream.m */,
+				8020326A1B6710AC00FC510C /* SBJsonWriter.h */,
+				8020326B1B6710AC00FC510C /* SBJsonWriter.m */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801F47201B622BB700611FA7 /* TinyImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801F473E1B622BB700611FA7 /* Build configuration list for PBXNativeTarget "TinyImage" */;
+			buildPhases = (
+				801F471D1B622BB700611FA7 /* Sources */,
+				801F471E1B622BB700611FA7 /* Frameworks */,
+				801F471F1B622BB700611FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyImage;
+			productName = TinyImage;
+			productReference = 801F47211B622BB700611FA7 /* TinyImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		801F47331B622BB700611FA7 /* TinyImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801F47411B622BB700611FA7 /* Build configuration list for PBXNativeTarget "TinyImageTests" */;
+			buildPhases = (
+				801F47301B622BB700611FA7 /* Sources */,
+				801F47311B622BB700611FA7 /* Frameworks */,
+				801F47321B622BB700611FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801F47361B622BB700611FA7 /* PBXTargetDependency */,
+			);
+			name = TinyImageTests;
+			productName = TinyImageTests;
+			productReference = 801F47341B622BB700611FA7 /* TinyImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801F47191B622BB700611FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LarryEmerson;
+				TargetAttributes = {
+					801F47201B622BB700611FA7 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					801F47331B622BB700611FA7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 801F47201B622BB700611FA7;
+					};
+				};
+			};
+			buildConfigurationList = 801F471C1B622BB700611FA7 /* Build configuration list for PBXProject "TinyImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 801F47181B622BB700611FA7;
+			productRefGroup = 801F47221B622BB700611FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801F47201B622BB700611FA7 /* TinyImage */,
+				801F47331B622BB700611FA7 /* TinyImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		801F471F1B622BB700611FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801F472C1B622BB700611FA7 /* Images.xcassets in Resources */,
+				801F472F1B622BB700611FA7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801F47321B622BB700611FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801F471D1B622BB700611FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801F472A1B622BB700611FA7 /* main.m in Sources */,
+				802032771B6710AC00FC510C /* SBJsonWriter.m in Sources */,
+				801F47281B622BB700611FA7 /* AppDelegate.m in Sources */,
+				802032751B6710AC00FC510C /* SBJsonTokeniser.m in Sources */,
+				8020326C1B6710AC00FC510C /* NSObject+SBJson.m in Sources */,
+				8020327D1B6750A700FC510C /* TinyImageCore.m in Sources */,
+				802032721B6710AC00FC510C /* SBJsonStreamWriter.m in Sources */,
+				8020326E1B6710AC00FC510C /* SBJsonStreamParser.m in Sources */,
+				8020326D1B6710AC00FC510C /* SBJsonParser.m in Sources */,
+				8020326F1B6710AC00FC510C /* SBJsonStreamParserAccumulator.m in Sources */,
+				802032711B6710AC00FC510C /* SBJsonStreamParserState.m in Sources */,
+				802032731B6710AC00FC510C /* SBJsonStreamWriterAccumulator.m in Sources */,
+				8020327A1B6724DE00FC510C /* Window.m in Sources */,
+				802032741B6710AC00FC510C /* SBJsonStreamWriterState.m in Sources */,
+				802032761B6710AC00FC510C /* SBJsonUTF8Stream.m in Sources */,
+				801F47471B6239AF00611FA7 /* MF_Base64Additions.m in Sources */,
+				802032701B6710AC00FC510C /* SBJsonStreamParserAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801F47301B622BB700611FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801F473B1B622BB700611FA7 /* TinyImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		801F47361B622BB700611FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801F47201B622BB700611FA7 /* TinyImage */;
+			targetProxy = 801F47351B622BB700611FA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		801F472D1B622BB700611FA7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				801F472E1B622BB700611FA7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		801F473C1B622BB700611FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		801F473D1B622BB700611FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		801F473F1B622BB700611FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TinyImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		801F47401B622BB700611FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TinyImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		801F47421B622BB700611FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TinyImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyImage.app/Contents/MacOS/TinyImage";
+			};
+			name = Debug;
+		};
+		801F47431B622BB700611FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TinyImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyImage.app/Contents/MacOS/TinyImage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801F471C1B622BB700611FA7 /* Build configuration list for PBXProject "TinyImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801F473C1B622BB700611FA7 /* Debug */,
+				801F473D1B622BB700611FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801F473E1B622BB700611FA7 /* Build configuration list for PBXNativeTarget "TinyImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801F473F1B622BB700611FA7 /* Debug */,
+				801F47401B622BB700611FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801F47411B622BB700611FA7 /* Build configuration list for PBXNativeTarget "TinyImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801F47421B622BB700611FA7 /* Debug */,
+				801F47431B622BB700611FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801F47191B622BB700611FA7 /* Project object */;
+}
